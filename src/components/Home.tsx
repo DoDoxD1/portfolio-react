@@ -1,14 +1,14 @@
 import React from "react";
 import Header from "./header/Header";
+import TopSection from "./top-section/TopSection";
 
 const Home: React.FC = () => {
   return (
     <div className="home">
       <Header></Header>
-      <h1>Welcome to My Portfolio</h1>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <main className="main">
+        <TopSection></TopSection>
+      </main>
     </div>
   );
 };
